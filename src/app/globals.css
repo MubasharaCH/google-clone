@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .btn{
+        @apply bg-[#f8f9fa]
+         text-gray-800
+        rounded-md text-sm hover:ring-1 hover:ring-gray-200 hover:shadow-md transition-shadow w-36 h-10 
+        focus:outline-none active:ring-gray-300 
+    }
+}
 
